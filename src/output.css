@@ -662,6 +662,10 @@ div.product-price {
   top: 50%;
 }
 
+.bottom-32 {
+  bottom: 8rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -768,6 +772,22 @@ div.product-price {
   height: 100%;
 }
 
+.h-\[640px\] {
+  height: 640px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[5850px\] {
+  height: 5850px;
+}
+
+.h-\[585px\] {
+  height: 585px;
+}
+
 .max-h-\[250px\] {
   max-height: 250px;
 }
@@ -782,6 +802,10 @@ div.product-price {
 
 .max-h-\[64px\] {
   max-height: 64px;
+}
+
+.max-h-\[640px\] {
+  max-height: 640px;
 }
 
 .min-h-\[640px\] {
@@ -890,10 +914,6 @@ div.product-price {
   justify-content: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
 .gap-0 {
   gap: 0px;
 }
@@ -908,10 +928,6 @@ div.product-price {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-8 {
-  gap: 2rem;
 }
 
 .gap-\[115px\] {
@@ -1013,10 +1029,6 @@ div.product-price {
 
 .bg-opacity-80 {
   --tw-bg-opacity: 0.8;
-}
-
-.bg-\[url\(\/assets\/img\/hero\.png\)\] {
-  background-image: url(/assets/img/hero.png);
 }
 
 .bg-gradient-to-r {
@@ -1164,10 +1176,6 @@ div.product-price {
 
 .text-\[11pt\] {
   font-size: 11pt;
-}
-
-.text-\[14pt\] {
-  font-size: 14pt;
 }
 
 .text-\[20pt\] {
