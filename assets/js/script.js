@@ -1,11 +1,15 @@
-const url = window.location.pathname;
+const uri = window.location.pathname;
 
 // Check for current path
 // Use regex pattern to replace slash and .html string
-const pattern = /\/|\.html/g;
-const currentPath = url.replace(pattern, "");
+// In production, split the text
+// Then, get rid of the .html
+// const patternUri = /\/|\.html/g;
+// const currentPathUri = url.replace(patternUri, "");
+const splitted = uri.split("/");
+const currentPathUri = splitted[splitted.length - 1].replace(".html", "");
 
-const nav = document.querySelector(`[nav=${currentPath}]`);
+const nav = document.querySelector(`[nav=${currentPathUri}]`);
 
 // Change the current tab name if match with the url path
 nav.classList.add("text-white");
