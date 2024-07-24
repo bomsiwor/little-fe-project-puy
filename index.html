@@ -40,19 +40,19 @@
 
     <main>
       <section id="hero">
-        <div class="w-full h-[585px] relative">
-          <img src="assets/img/hero.png" alt="Hero" class="absolute" />
+        <div class="hero-container">
+          <img src="assets/img/hero.png" alt="Hero" class="hero-img" />
 
           <a
             href="contact.html"
-            class="absolute bg-[#E49F3C] px-10 py-3 rounded-md text-white font-bold left-48 bottom-32 hover:bg-[#D97333] active:scale-[0.92] transition ease-in"
+            class="absolute bg-[#E49F3C] px-10 py-3 rounded-md text-white font-bold left-[15%] bottom-[15%] hover:bg-[#D97333] active:scale-[0.92] transition ease-in"
             >PESAN SEKARANG</a
           >
         </div>
       </section>
 
       <section id="sub-hero" class="px-[80px] py-6">
-        <p class="text-center font-mont">
+        <p class="text-center font-mont text-[20pt]">
           Selamat datang di sumber utama Anda untuk jus buah berkualitas tinggi
           yang siap menyegarkan hari-harimu! <br />
           Kami bangga menghadirkan Seliter yang diproduksi dari buah-buahan
@@ -61,23 +61,23 @@
         </p>
       </section>
 
-      <section id="motive" class="bg-opacity-40 bg-[#E49F3C] px-12 py-12">
-        <h2 class="text-[24pt] font-bold">Kenapa harus memilih Seliter?</h2>
+      <section id="motive" class="bg-opacity-40 bg-[#E49F3C] px-[5%] py-12">
+        <h2 class="text-[36pt] font-bold">Kenapa harus memilih Seliter?</h2>
 
         <div class="grid grid-rows-4 gap-0">
           <!-- Motive 1 -->
-          <div class="grid grid-cols-2">
-            <div class="max-h-[360px] rounded-md overflow-hidden">
+          <div class="motive-container">
+            <div class="motive-img-container">
               <img
                 src="assets/img/motive-1.png"
                 alt="Motivasi 1"
-                class="hover:scale-[1.1] transition ease-in"
+                class="motive-img"
               />
             </div>
 
             <div class="self-center px-8">
-              <h3 class="text-[20pt] font-bold">100% Buah Asli</h3>
-              <p>
+              <h3 class="motive-desc">100% Buah Asli</h3>
+              <p class="motive-subdesc">
                 Setiap jus kami dibuat dari buah-buahan segar yang dipetik
                 langsung dari kebun terbaik. Kami tidak menggunakan pemanis
                 buatan, pewarna, atau pengawet. Hanya buah murni yang kamu
@@ -87,10 +87,10 @@
           </div>
 
           <!-- Motive 2 -->
-          <div class="grid grid-cols-2">
+          <div class="motive-container">
             <div class="self-center px-8 text-right">
-              <h3 class="text-[20pt] font-bold">Kaya Akan Nutrisi</h3>
-              <p>
+              <h3 class="motive-desc">Kaya Akan Nutrisi</h3>
+              <p class="motive-subdesc">
                 Jus kami tidak hanya enak, tetapi juga kaya akan vitamin dan
                 mineral penting yang membantu meningkatkan sistem kekebalan
                 tubuh, menjaga kesehatan kulit, dan memberikan energi sepanjang
@@ -98,28 +98,28 @@
               </p>
             </div>
 
-            <div class="max-h-[360px] rounded-md overflow-hidden">
+            <div class="motive-img-container">
               <img
                 src="assets/img/motive-2.png"
                 alt="Motivasi 2"
-                class="hover:scale-[1.1] transition ease-in"
+                class="motive-img"
               />
             </div>
           </div>
 
           <!-- Motive 3 -->
-          <div class="grid grid-cols-2">
-            <div class="max-h-[360px] rounded-md overflow-hidden">
+          <div class="motive-container">
+            <div class="motive-img-container">
               <img
                 src="assets/img/motive-4.png"
                 alt="Motivasi 3"
-                class="hover:scale-[1.1] transition ease-in"
+                class="motive-img"
               />
             </div>
 
             <div class="self-center px-8">
-              <h3 class="text-[20pt] font-bold">Pilihan Rasa yang Beragam</h3>
-              <p>
+              <h3 class="motive-desc">Pilihan Rasa yang Beragam</h3>
+              <p class="motive-subdesc">
                 Nikmati berbagai pilihan rasa yang menggugah selera, mulai dari
                 jus jeruk manis yang menyegarkan hingga jus mangga yang eksotis.
                 Ada sesuatu untuk setiap selera dan kebutuhanmu.
@@ -128,21 +128,21 @@
           </div>
 
           <!-- Motive 4 -->
-          <div class="grid grid-cols-2">
+          <div class="motive-container">
             <div class="self-center px-8 text-right">
-              <h3 class="text-[20pt] font-bold">Kualitas Terjamin</h3>
-              <p>
+              <h3 class="motive-desc">Kualitas Terjamin</h3>
+              <p class="motive-subdesc">
                 Kami berkomitmen untuk memberikan produk yang terbaik. Setiap
                 proses produksi kami diawasi dengan ketat untuk memastikan jus
                 yang kamu minum selalu segar dan berkualitas tinggi.
               </p>
             </div>
 
-            <div class="max-h-[360px] rounded-md overflow-hidden">
+            <div class="motive-img-container">
               <img
                 src="assets/img/motive-3.png"
                 alt="Motivasi 2"
-                class="hover:scale-[1.1] transition ease-in"
+                class="motive-img"
               />
             </div>
           </div>
@@ -152,34 +152,34 @@
       <!-- Testimoni -->
       <section id="testimoni">
         <div class="px-16 pb-24">
-          <h2 class="text-[24pt] font-extrabold my-8">
+          <h2 class="text-[40pt] font-extrabold my-8">
             Apa Kata Mereka Tentang Seliter?
           </h2>
 
           <!-- Card -->
-          <div class="grid grid-cols-3 gap-4 mb-12">
+          <div
+            class="grid grid-cols-3 justify-evenly justify-items-center gap-4 mb-12"
+          >
             <!-- Card testi -->
-            <div
-              class="h-[560px] w-[360px] p-12 bg-[#E49F3C] bg-opacity-80 drop-shadow-2xl rounded-md hover:bg-opacity-100 hover:scale-[102%] transition ease-out"
-            >
+            <div class="card-testi">
               <!-- Avatar & Username -->
               <div class="flex justify-center items-center gap-2 mb-4">
                 <!-- Avatar -->
                 <div
                   class="h-[42px] w-[42px] rounded-[50%] bg-red-600 overflow-hidden"
                 >
-                  <img src="assets/img/Avatar.png" alt="Avatar" />
+                  <img src="assets/img/Avatar (1).png" alt="Avatar" />
                 </div>
 
                 <!-- Username -->
-                <div>
+                <div class="text-[16pt]">
                   <span>prajkaibnu</span>
                 </div>
               </div>
 
               <!-- Text -->
               <div
-                class="max-h-[48px] text-center mb-6 px-4 overflow-hidden text-wrap text-[10pt]"
+                class="max-h-[48px] text-center mb-6 px-1 overflow-hidden text-wrap text-[12pt]"
               >
                 <p>“One of my fav from @sseliterr Nanas nan hijau 🍍🥬"</p>
               </div>
@@ -191,27 +191,25 @@
             </div>
 
             <!-- Card testi -->
-            <div
-              class="h-[560px] w-[360px] p-12 bg-[#E49F3C] bg-opacity-80 drop-shadow-2xl rounded-md hover:bg-opacity-100 hover:scale-[102%] transition ease-out"
-            >
+            <div class="card-testi">
               <!-- Avatar & Username -->
               <div class="flex justify-center items-center gap-2 mb-4">
                 <!-- Avatar -->
                 <div
                   class="h-[42px] w-[42px] rounded-[50%] bg-red-600 overflow-hidden"
                 >
-                  <img src="assets/img/Avatar.png" alt="Avatar" />
+                  <img src="assets/img/Avatar (2).png" alt="Avatar" />
                 </div>
 
                 <!-- Username -->
-                <div>
+                <div class="text-[16pt]">
                   <span>mirmeerra</span>
                 </div>
               </div>
 
               <!-- Text -->
               <div
-                class="max-h-[64px] text-center mb-6 px-4 overflow-hidden text-[10pt]"
+                class="max-h-[64px] text-center mb-6 px-0 overflow-hidden text-[12pt]"
               >
                 <p>
                   “Nagiiih siih iniii jus dr @sseliterr dapet free lagi 🥰. Rela
@@ -228,9 +226,7 @@
             </div>
 
             <!-- Card testi -->
-            <div
-              class="h-[560px] w-[360px] p-12 bg-[#E49F3C] bg-opacity-80 drop-shadow-2xl rounded-md hover:bg-opacity-100 hover:scale-[102%] transition ease-out"
-            >
+            <div class="card-testi">
               <!-- Avatar & Username -->
               <div class="flex justify-center items-center gap-2 mb-4">
                 <!-- Avatar -->
@@ -241,14 +237,14 @@
                 </div>
 
                 <!-- Username -->
-                <div>
+                <div class="text-[16pt]">
                   <span>aulyaliza</span>
                 </div>
               </div>
 
               <!-- Text -->
               <div
-                class="max-h-[64px] text-center mb-6 px-4 overflow-hidden text-wrap text-[10pt]"
+                class="max-h-[68px] text-center mb-6 px-1 overflow-hidden text-wrap text-[12pt]"
               >
                 <p>
                   “Kaget beneran seliter😭 Kirain cuma nama doang, ternyata
@@ -269,42 +265,65 @@
     <footer>
       <div class="py-8 bg-[#8BD7D6] bg-opacity-50">
         <!-- Socmed icons -->
-        <div class="flex gap-4 justify-center items-center">
-          <div class="w-[24px]">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-              <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path
-                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
-              />
-            </svg>
+        <div class="flex gap-6 justify-center items-center">
+          <div class="w-[2%]">
+            <a href="https://www.instagram.com/sseliterr">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="hover:fill-white hover:cursor-pointer"
+              >
+                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </a>
           </div>
 
-          <div class="w-[24px]">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-              <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path
-                fill="#ffffff"
-                d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
-              />
-            </svg>
+          <div class="w-[2%]">
+            <a href="https://www.facebook.com/sseliterr">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                class="hover:fill-white hover:cursor-pointer"
+              >
+                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
+                />
+              </svg>
+            </a>
           </div>
 
-          <div class="w-[24px]">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-              <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path
-                d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"
-              />
-            </svg>
+          <div class="w-[2%]">
+            <a href="https://www.tiktok.com/@sseliterr">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="hover:fill-white hover:cursor-pointer"
+              >
+                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"
+                />
+              </svg>
+            </a>
           </div>
 
-          <div class="w-[24px]">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-              <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path
-                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-              />
-            </svg>
+          <div class="w-[2%]">
+            <a href="https://www.linkedin.com/company/sseliterr">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="hover:fill-white hover:cursor-pointer"
+              >
+                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                />
+              </svg>
+            </a>
           </div>
         </div>
 

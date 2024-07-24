@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         "rob": ["Roboto", 'sans-serif'],
-        "mont": ["Montserrat", 'sans-serif']
+        "mont": ["Futura", 'sans-serif']
       }
     },
   },
