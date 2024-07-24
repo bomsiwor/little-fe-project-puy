@@ -56,7 +56,7 @@
 
       <!-- Title -->
       <div class="pl-[27%] mt-20">
-        <h1 class="font-bold text-[28pt]">Ragam Rasa</h1>
+        <h1 class="font-bold text-[28pt]" id="product-header">Ragam Produk</h1>
       </div>
 
       <section id="product">
@@ -90,6 +90,7 @@
                     role="tab"
                     aria-controls="ragam-rasa"
                     aria-selected="false"
+                    onclick="changeProductHandler(this)"
                   >
                     Ragam Rasa
                   </a>
@@ -104,6 +105,7 @@
                     role="tab"
                     aria-controls="creamy-series"
                     aria-selected="false"
+                    onclick="changeProductHandler(this)"
                   >
                     Creamy Series
                   </a>
@@ -118,6 +120,7 @@
                     role="tab"
                     aria-controls="ramu-rasa"
                     aria-selected="false"
+                    onclick="changeProductHandler(this)"
                   >
                     Ramu Rasa
                   </a>
@@ -132,6 +135,7 @@
                     role="tab"
                     aria-controls="veggie-series"
                     aria-selected="false"
+                    onclick="changeProductHandler(this)"
                   >
                     Veggie Series
                   </a>
@@ -146,6 +150,7 @@
                     role="tab"
                     aria-controls="avo-series"
                     aria-selected="false"
+                    onclick="changeProductHandler(this)"
                   >
                     Avo Series</a
                   >
@@ -273,6 +278,13 @@
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
 
     <script>
+      window.addEventListener("load", (e) => {
+        const prodHeader = document.getElementById("product-header");
+        const activeTab = document.querySelectorAll("[role=tab]");
+
+        prodHeader.textContent = activeTab[0].textContent;
+      });
+
       products.forEach((item) => {
         const tabContent = document.getElementById(item.category);
 

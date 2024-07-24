@@ -1,3 +1,11 @@
+// FUnction to change product header
+function changeProductHandler(a) {
+    const productHandler = document.getElementById("product-header");
+
+    console.log(productHandler.textContent);
+
+    productHandler.textContent = a.textContent;
+}
 
 const products = [
     {
