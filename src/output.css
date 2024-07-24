@@ -451,7 +451,7 @@ video {
 
   font-weight: 400;
 
-  src: url("/assets/font/FuturaCyrillicBook.ttf");
+  src: url("assets/font/FuturaCyrillicBook.ttf");
 }
 
 @font-face {
@@ -459,7 +459,7 @@ video {
 
   font-weight: 700;
 
-  src: url("/assets/font/FuturaCyrillicBold.ttf");
+  src: url("assets/font/FuturaCyrillicBold.ttf");
 }
 
 *, ::before, ::after {
@@ -1209,10 +1209,6 @@ div.product-price {
 
 .pl-8 {
   padding-left: 2rem;
-}
-
-.pl-\[25\%\] {
-  padding-left: 25%;
 }
 
 .pl-\[27\%\] {
